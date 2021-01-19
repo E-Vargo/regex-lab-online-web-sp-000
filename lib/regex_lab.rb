@@ -13,7 +13,8 @@ end
 
 def words_five_letters_long(text)
   if text.scan(/[a-z]{5}/i)
-    return text.split
+    array = text.scan(/[a-z]{5}/i)
+    array.split
   else
   nil
   end
