@@ -13,8 +13,8 @@ end
 
 def words_five_letters_long(text)
 
-     new_array = text.scan(/[a-z]{5}/i)
-    new_array.split(" ")
+     new_array = text.scan(/[a-z]{5}/i).split(" ")
+    new_array
     new_array
 end
 
