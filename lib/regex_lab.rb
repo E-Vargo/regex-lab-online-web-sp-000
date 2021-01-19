@@ -5,7 +5,7 @@ def starts_with_a_vowel?(word)
     return false
  end
 end
-text = "blue band ship wagon playful unending superending "
+
 
 def words_starting_with_un_and_ending_with_ing(text)
 (/\b[un]\w*[ing]/)
