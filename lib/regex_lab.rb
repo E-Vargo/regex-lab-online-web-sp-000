@@ -15,6 +15,7 @@ def words_five_letters_long(text)
   if text.scan(/[a-z]{5}/i)
      new_array = text.scan(/[a-z]{5}/i)
     new_array.split(" ")
+    new_array
   else
   nil
   end
